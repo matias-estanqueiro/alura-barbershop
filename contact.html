@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <title>AB - Contact</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1><img src="./img/logo-blanco.png" alt="alura barbershop logo"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">home</a></li>
+                        <li><a href="./products.html">products</a></li>
+                        <li><a href="./contact.html">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form action="">
+                <label for="name-surname">Name & surname:</label>
+                <input id="name-surname" class="input-data" type="text" requiered>
+                <label for="email">Email:</label>
+                <input id="email" class="input-data" type="email" requiered placeholder="ejemplo@dominio.com">
+                <label for="phone">Phone: </label>
+                <input id="phone" class="input-data" type="tel" requiered placeholder="(xx) xxxx xxxx">
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" class="input-data" cols="30" rows="10" requiered></textarea>
+                <fieldset>
+                    <legend>How would you like us to contact you?</legend>
+                    <div class="option-contact"><input type="radio" name="radio-contact" id="radio-email" value="email">
+                    <label for="radio-email">Email:</label></div>
+                    <div class="option-contact"><input type="radio" name="radio-contact" id="radio-phone" value="phone">
+                    <label for="radio-phone">Teléfono:</label></div>
+                    <div class="option-contact"><input type="radio" name="radio-contact" id="radio-whatsapp" value="whatsapp" checked>
+                    <label for="WhatsApp">WhatsApp:</label></div>
+                </fieldset>
+                <fieldset>
+                    <legend>What time do you prefer to be attended?</legend>
+                    <select>
+                        <option value="">Mañana</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noche</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <div><input type="checkbox" name="check-news" id="check-news" checked>
+                    <label for="check-news">Would you like to receive news from our barbershop?</label></div>
+                </fieldset>
+                <input type="submit" class="send-form" value="Submit">
+            </form>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <th>Day</th>
+                        <th>Schedule</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>08.00 ~ 20.00</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>08.00 ~ 20.00</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>08.00 ~ 20.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+
+        <footer>
+            <section class="fifty-width">
+                <img src="./img/logo-blanco.png" alt="alura barbershop logo">
+                <p class="paragraph-copyright">&copy Copyright Alura Barbershop - 2023</p>
+            </section>
+            <section class="fifty-width">
+                <h3 class="title-main center">Our location</h3>
+                <p>Our business is located in the center of the city</p>
+                <iframe class="map-footer" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.449840638979!2d-46.63490682470246!3d-23.58819477878126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Education%20and%20Innovation!5e0!3m2!1ses!2sar!4v1682307647823!5m2!1ses!2sar" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </footer>
+    </body>
+</html>
