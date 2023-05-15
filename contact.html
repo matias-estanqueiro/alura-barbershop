@@ -12,15 +12,24 @@
     </head>
     <body>
         <header>
-            <div class="container">
-                <h1><img src="./img/logo-blanco.png" alt="alura barbershop logo"></h1>
-                <nav>
-                    <ul>
-                        <li><a href="./index.html">home</a></li>
-                        <li><a href="./products.html">products</a></li>
-                        <li><a href="./contact.html">contact</a></li>
-                    </ul>
-                </nav>
+            <nav class="navbar">
+                    <h1 class="logo-navbar">
+                        <img class="img-header-desktop" src="./img/logo-blanco.png" alt="alura barbershop logo">
+                        <img class="img-header-mobile" src="./img/logo-blanco-mobile.png" alt="alura barbershop logo">
+                    </h1>
+                <ul class="navbar-links">
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="./products.html">products</a></li>
+                    <li><a href="./contact.html">contact</a></li>
+                </ul>
+                <a href="#" class="login-btn">Login</a>
+                <div class="toggle-btn"><i class="fa-sharp fa-solid fa-bars" style="color: #ffffff;"></i></div>
+            </nav>
+            <div class="dropdown-menu">
+                <li><a href="./index.html">home</a></li>
+                <li><a href="./products.html">products</a></li>
+                <li><a href="./contact.html">contact</a></li>
+                <li><a href="#" class="login-btn">Login</a></li>
             </div>
         </header>
 
