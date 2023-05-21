@@ -629,48 +629,48 @@ td, th{
 
     .navbar-links li{
         margin: 90px;
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .login-btn{
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .title-main{
-        font-size: 70px;
+        font-size: 40px;
         margin: 30px;
     }
 
     .container-principal{
-        font-size: 35px;
+        font-size: 25px;
         margin-bottom: 40px;
     }
 
     .image-principal{
-        width: 300px;
+        width: 210px;
         margin: 0 35px;
     }
 
     .img-char{
-        height: 600px;
+        height: 500px;
     }
 
     .list-items{
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .list-items:first-child{
-        font-size: 45px;
+        font-size: 30px;
         margin: 100px 0;
     }
 
     .video-barber{
-        height: 600px;
+        height: 500px;
     }
 
     .title-footer{
         padding: 15px;
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .paragraph-location{
@@ -679,11 +679,11 @@ td, th{
     }
 
     .map-footer{
-        height: 350px;
+        height: 300px;
     }
 
     .img-footer-desktop{
-        width: 350px;
+        width: 250px;
     }
 
     .paragraph-copyright{
