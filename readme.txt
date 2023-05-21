@@ -11,6 +11,10 @@ Technologies:
 
 Versions:
     - v1.0.0    red-turtle
-        - Release notes: full responsive.-
+        - Release notes: 
+            * 1st version of the app
+            * Full responsive
+            * FrontEnd: index, products, contact
+
 
 
